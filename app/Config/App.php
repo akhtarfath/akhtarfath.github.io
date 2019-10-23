@@ -21,7 +21,8 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://127.0.0.1/akhtarfath/';
+	// public $baseURL = 'http://127.0.0.1/akhtarfath/';
+	public $baseURL = 'https://akhtarfath.github.io/';
 
 	/*
 	|--------------------------------------------------------------------------
