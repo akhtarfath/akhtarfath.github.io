@@ -1,5 +1,4 @@
-<Directory "/opt/lamp7.2/apache2/htdocs">
-    Options Indexes FollowSymLinks
-    AllowOverride All
-    Require all granted
-</Directory>
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?akhtarfath.github.io/.*$ [NC]
+RewriteRule .(gif|jpg)$ – [F]

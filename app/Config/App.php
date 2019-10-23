@@ -23,6 +23,7 @@ class App extends BaseConfig
 	*/
 	// public $baseURL = 'http://127.0.0.1/akhtarfath/';
 	public $baseURL = 'https://akhtarfath.github.io/';
+	// public $baseURL    = '';
 
 	/*
 	|--------------------------------------------------------------------------
