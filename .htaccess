@@ -1,4 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http://(www\.)?akhtarfath.github.io/.*$ [NC]
-RewriteRule .(gif|jpg)$ – [F]
