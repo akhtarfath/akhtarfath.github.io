@@ -108,8 +108,9 @@ function animateMove() {
             moveInfo.state = "down";
             moveInfo.whichPos = "top";
             moveInfo.dir = 1;
-            //alert(elem.offsetHeight);
-            moveInfo.endPos = document.getElementById("bottombar").offsetTop - (barsInfo[moveInfo.toBar].disks.length + 1) * elem.offsetHeight;
+            
+            moveInfo.endPos = document.getElementById("bottombar").offsetTop - 
+            (barsInfo[moveInfo.toBar].disks.length + 1) * elem.offsetHeight;
             return;
         }
 
